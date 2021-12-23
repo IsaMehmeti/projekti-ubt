@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	justify-content:space-between;
+	align-items: center;
+	background-color: lightgrey;
+}
+.prime .logo{
+display: flex;
+flex-direction: start;
+height: 47px;
+}
+.prime .logo img{
+	width: 60px;
+	margin: 10px 10px;
+}
+.prime nav{
+	display: block;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.prime nav ul {
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+}
+
+.prime nav ul li {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: start;
+	padding: 10px;
+
+}
+.prime nav ul li a{
+	padding: 0px 20px;
+	color: black;
+	transition: 1s linear 0s;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 3px;
+	line-height: 1;
+}
+.prime nav ul li a:hover{
+	color: #cccccc;
+	background-color: #333333;
+}
+.prime nav ul li.active a{
+color: #cccccc;
+	background-color: #333333;
+}
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.contact{
+	background-image: url(../images/foto3.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height:700px;
+
+}
+
+.contact h1{
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+.border{
+	width: 100px;
+	height: 10px;
+	background:#34495e;
+	margin: 40px auto;
+}
+
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+
+}
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+}
+.contact-form-text:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+}
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background:#34495e ;
+	color: #fff;
+	padding: 15px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+.contact-form-btn:hover{
+	background: #2980b9;
+}
